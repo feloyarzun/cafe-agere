@@ -1,0 +1,20 @@
+.stats {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: $primary-white;
+  bottom: 0;
+  right: 25%;
+
+
+  &__info {
+    padding: 1rem;
+    max-width: 10rem;
+    text-align: center;
+
+    &:not(:first-of-type) { 
+      padding-left: 1rem;
+    }
+  }
+}

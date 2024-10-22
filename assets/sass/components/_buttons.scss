@@ -1,0 +1,11 @@
+.btn {
+  font-family: $pt-mono; 
+  text-align: center; 
+  padding: 0.5rem; 
+  min-width: 9rem; 
+  max-width: 100%; 
+  
+  &:hover {
+    cursor: pointer;
+  }
+}

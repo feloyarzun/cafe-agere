@@ -1,0 +1,9 @@
+$iteraciones: 10;
+
+@for $i from 1 through $iteraciones {
+  .img-#{$i * 10} {
+    width: $i * 10%;
+    max-height: 100%; 
+    object-fit: cover; 
+  }
+}
